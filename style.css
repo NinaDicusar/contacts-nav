@@ -1,0 +1,37 @@
+
+body{
+    --main-color: rgba(19, 19, 186, 0.739);
+     margin: 0;
+     font-family: 'Montserrat', sans-serif;
+}
+.nav-main{
+   position: relative;
+   line-height: 1em;
+   top:3em;
+   padding: 1em;
+  
+}
+.nav-contacts{
+    position: relative;
+    line-height: 1em;
+    top:-3em;
+    padding: 1em 5em;
+    border-bottom: 3px solid var(--main-color);
+    text-align: center;
+
+}
+.nav-contacts a{
+    text-decoration: none;
+    display: inline-block;
+    color:var(--main-color)
+}
+.nav-contacts_email{
+   font-weight: 600;
+   float: left;
+}
+.nav-contacts_phone{
+    font-weight: 900; 
+}
+.nav-contacts_socials{
+    float: right;
+}
